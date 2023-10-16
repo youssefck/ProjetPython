@@ -8,7 +8,10 @@ class Auteur:
         self.nom = nom
 
 auteur1 = Auteur("J.K. Rowling")
+auteur2 = Auteur("J.K. Robert")
 livre1= Livre("Harry Potter and the Sorcerer's Stone",auteur1)
+livre2= Livre("Harry Potter and the Sorcerer's Stone",auteur2)
+
 
 
 class Bibliotheque:
